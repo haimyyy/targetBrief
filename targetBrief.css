@@ -114,3 +114,61 @@ h1.targetName {
 .mainImage {
     width: 100%;
 }
+
+@media screen and (max-width: 650px) {
+    h1.targetName {
+        color: #dce8e2;
+        text-transform: uppercase;
+        padding-left: 10px;
+        font-size: 22pt;
+    }
+
+    img.targetIcon {
+        width: 35px;
+    }
+
+    .main > p {
+        color: #dce8e2;
+        font-size: 8pt;
+    }
+
+    .linksContainer > span, a {
+        color: #00ffb0;
+        font-size: 8pt;
+    }
+    .downloadFile {
+        font-size: 8pt;
+    }
+    .downloadFile > img {
+        width: 20px;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 850px) {
+    h1.targetName {
+        color: #dce8e2;
+        text-transform: uppercase;
+        padding-left: 10px;
+        font-size: 25pt;
+    }
+
+    img.targetIcon {
+        width: 35px;
+    }
+
+    .main > p {
+        color: #dce8e2;
+        font-size: 10pt;
+    }
+
+    .linksContainer > span, a {
+        color: #00ffb0;
+        font-size: 10pt;
+    }
+    .downloadFile {
+        font-size: 10pt;
+    }
+    .downloadFile > img {
+        width: 20px;
+    }
+}

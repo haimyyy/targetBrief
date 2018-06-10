@@ -32,28 +32,28 @@ h1.targetName {
 * scroller design
 */
 ::-webkit-scrollbar {
-  width: 8px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar {
-  height: 5px;
+    height: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  background: $black_light;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #42494e;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
-  background: $black_light;
+    background: #42494e;
 }
 
 .border {
@@ -99,7 +99,7 @@ h1.targetName {
     text-decoration: none;
 }
 
-.downloadFile >span{
+.downloadFile > span {
     margin-right: 10px;
 }
 
@@ -113,4 +113,33 @@ h1.targetName {
 
 .mainImage {
     width: 100%;
+}
+
+@media screen and (max-width: 1600px) {
+    h1.targetName {
+        color: #dce8e2;
+        text-transform: uppercase;
+        padding-left: 10px;
+        font-size: 22pt;
+    }
+
+    img.targetIcon {
+        width: 35px;
+    }
+
+    .main > p {
+        color: #dce8e2;
+        font-size: 8pt;
+    }
+
+    .linksContainer > span, a {
+        color: #00ffb0;
+        font-size: 8pt;
+    }
+    .downloadFile {
+        font-size: 8pt;
+    }
+    .downloadFile > img {
+        width: 20px;
+    }
 }

@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+}
+
+.container {
+    font-family: 'Exo', sans-serif;
+    background: #060a0d;
+    width: 96vw;
+    padding: 2vw;
+    background-image: url("./popupBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+}
+
+img.targetIcon {
+    width: 50px;
+}
+
+h1.targetName {
+    color: #dce8e2;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-size: 36pt;
+}
+
+.border {
+    margin-top: 10px;
+    height: 1px;
+    background: linear-gradient(to right, #dce8e2, #060a0d);
+    width: 80vw;
+}
+
+/*main*/
+.main {
+    margin: 20px 0;
+    /*width: 80%;*/
+    padding: 0 10px;
+}
+
+.main > p {
+    color: #dce8e2;
+    font-size: 16pt;
+}
+
+.linksAndFiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.linksContainer > span, a {
+    color: #00ffb0;
+    font-size: 14pt;
+}
+
+.downloadFile {
+    color: #dce8e2;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.downloadFile >span{
+    margin-right: 10px;
+}
+
+.downloadFile:hover {
+    color: #18a8fc;
+}
+
+.mainImageContainer {
+
+}
+
+.mainImage {
+    width: 100%;
+}

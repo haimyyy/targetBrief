@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Target Brief</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <link href="targetBrief.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="titleContainer">
+            <img class="targetIcon" src="./target.png"/>
+            <h1 class="targetName">Target Name</h1>
+        </div>
+        <div class="border"></div>
+    </div>
+    <!--this the dynamic part-->
+    <div class="main">
+        <!--free text -->
+        <p>is a long established fact that a reader will be distracted by the readable content of a page when looking at
+            its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+            opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+            packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem
+            ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years,
+            sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+        <div class="linksAndFiles">
+            <!--links-->
+            <div class="linksContainer">
+                <!--use how much links you want just copy paste the link and replace the content of the link-->
+                <span>Link: <a href="https://www.ynet.co.il/home/0,7340,L-8,00.html">https://www.ynet.co.il/home/0,7340,L-8,00.html</a></span>
+                <span>Link: <a href="Link: https://www.lipsum.com">https://www.lipsum.com</a></span>
+            </div>
+
+            <!--download file-->
+            <!--replace the file_name and href attributes-->
+            <a class="downloadFile" href="https://haimyyy.github.io/targetBrief/MyMovie.mp4" download="file_name">
+                <span>File Name</span>
+                <img class="downloadIcon" src="downloadFile.png"/>
+            </a>
+        </div>
+        <!--Video-->
+        <div class="videoContainer">
+            <video width="100%" controls>
+                <source src="https://haimyyy.github.io/targetBrief/MyMovie.mp4" type="video/mp4">
+            </video>
+            <!--</div>-->
+            <!--&lt;!&ndash;main Image&ndash;&gt;-->
+            <div class="mainImageContainer">
+                <img class="mainImage"
+                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnvwXxcd6d5Cs8JEc_5_o2xcSEYGWmScsHRdM2XRl-FkdzChty"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
